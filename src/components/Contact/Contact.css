@@ -1,0 +1,145 @@
+.contact .con_section{
+
+        padding: 100px 0;
+      
+      
+}
+
+::-webkit-input-placeholder {
+    color: #777;
+  }
+  :-moz-placeholder {
+    /* Firefox 18- */
+    color: #777;
+  }
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #777;
+  }
+  :-ms-input-placeholder {
+    color: #777;
+  }
+  
+ .contact .containerr {
+    position: relative;
+    width: 100%;
+    padding: 2rem;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+ .contact .con_section h2{
+
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+    color: rgb(93, 24, 20);
+    text-align: center;
+    margin: 22px 0;
+    font-size: 30px;
+    font-weight: 600
+
+     }
+  
+  .contact .containerr h2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+    color: rgb(93, 24, 20);
+    text-align: center;
+    margin: 22px 0;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact textarea {
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+    width: 100%;
+    font-size: 18px;
+    color: #777;
+    border: 1px solid #ccc;
+  }
+  
+  #contact textarea {
+    font-size: 16px;
+  }
+  
+  #contact input:hover,
+  #contact textarea:hover {
+    border: 1px solid #888;
+  }
+  #contact input:focus,
+  #contact textarea:focus {
+    border: 1px solid #777;
+  }
+  
+  #contact textarea {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 180px;
+    min-height: 180px;
+    resize: none;
+  }
+  
+  #contact .send-button {
+    text-align: center;
+  }
+
+  #contact .send-button button[type="submit"] {
+    color: #fff;
+    background: #67170f;
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: 0.5s all ease;
+    cursor: pointer;
+  }
+  
+  #contact .send-button button[type="submit"]:hover {
+    color: #fff;
+  }
+  
+  #contact .send-button button[type="submit"]:focus {
+    position: relative;
+    top: 2px;
+  }
+  
+  /*######################################\*
+                Responsive
+  \*######################################*/
+  
+  @media screen and (min-width: 640px) {
+    .contact .containerr {
+      width: 600px;
+    }
+  
+    #contact textarea {
+        max-width: 100%;
+        min-width: 100%;
+        min-height: 167px;
+        margin-right: 0;
+    }
+  
+    #contact .right,
+    #contact .left {
+      display: block;
+    }
+  
+    #contact .right {
+      width: 100%;
+    }
+  
+    #contact .left {
+      width: 100%;
+    }
+    .cl {
+      clear: both;
+    }
+  }
+  
